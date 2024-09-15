@@ -23,6 +23,7 @@
 # Hi MyProfile 👋
 
 <!-- Most used lang -->
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact)
 
 <!-- Status -->
 
