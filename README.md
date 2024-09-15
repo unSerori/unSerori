@@ -24,9 +24,13 @@
 <!-- Hi -->
 # Hi MyProfile 👋
 
-<!-- Most used lang -->
-
-<!-- Stats -->
+<!-- stats & lang -->
+<p align="left">
+  <!-- Stats -->
+  <img alt="github stats" height="175px" src="https://github-readme-stats.vercel.app/api?username=unSerori&show_icons=true&theme=tokyonight" />
+  <!-- Most used lang -->
+  <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
+</p>
 
 <!-- skill -->
 
