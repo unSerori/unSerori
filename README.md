@@ -17,15 +17,16 @@
   <a href="http://qiita.com/unSerori">
     <img height="20" src="https://qiita-badge.apiapi.app/s/unSerori/contributions.svg" />
   </a>
+  <a href="http://x.com/AskaInoue"><img height="20" src="https://img.shields.io/twitter/follow/AskaInoue?style=flat&logo=x" /></a>
+  </a>
 </p>
 
 <!-- Hi -->
 # Hi MyProfile 👋
 
 <!-- Most used lang -->
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact)
 
-<!-- Status -->
+<!-- Stats -->
 
 <!-- skill -->
 
