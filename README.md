@@ -35,8 +35,11 @@
 <!-- skill -->
 
 <!-- description -->
+サーバーサイドに興味  
+よろしくおねがいします
 
 <!-- trophy -->
+[![trophy](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- caterpillar -->
 
