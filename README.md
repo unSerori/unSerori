@@ -39,7 +39,7 @@
 よろしくおねがいします
 
 <!-- trophy -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+![trophies](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark&column=9)
 
 <!-- caterpillar -->
 
