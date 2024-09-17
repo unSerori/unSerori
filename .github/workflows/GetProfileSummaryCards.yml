@@ -23,7 +23,7 @@ jobs:
       # リポジトリのコードをActionsの実行環境にコピー
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: summary_cards
       # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
