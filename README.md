@@ -34,7 +34,14 @@
   <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
 </p>
 
-<!-- skill -->
+<!-- skill from https://github.com/tandpfun/skill-icons -->
+## Favorite tools, lang and MySkills
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+  <img alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+</picture>
 
 <!-- description -->
 サーバーサイドに興味  
