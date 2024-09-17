@@ -35,7 +35,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with: # アクションにパラメータを渡す
           target_branch: caterpillar
-          build_dir: ./img
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.CATERPILLAR }}
       
