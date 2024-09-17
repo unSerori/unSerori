@@ -11,11 +11,11 @@
     <img alt="github followers" height="20" src="https://img.shields.io/github/followers/unSerori?label=follow&logo=github&style=flat" />
   </a>
   <!-- qiita post -->
-  <a href="http://qiita.com/unSerori">
+  <a href="https://qiita.com/unSerori">
     <img alt="qiita post" height="20" src="https://qiita-badge.apiapi.app/s/unSerori/posts.svg" />
   </a>
   <!-- qiita contribution -->
-  <a href="http://qiita.com/unSerori">
+  <a href="https://qiita.com/unSerori">
     <img alt="qiita contribution" height="20" src="https://qiita-badge.apiapi.app/s/unSerori/contributions.svg" />
   </a>
   <!-- twitter profile -->
