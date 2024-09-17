@@ -26,13 +26,32 @@
 
 <!-- Hi -->
 
-<!-- stats & lang -->
-<p align="left">
-  <!-- Stats -->
-  <img alt="github stats" height="175px" src="https://github-readme-stats.vercel.app/api?username=unSerori&show_icons=true&theme=tokyonight" />
-  <!-- Most used lang -->
-  <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
-</p>
+<!-- 図 -->
+## Chart of Activities
+
+  <!-- stats & lang -->
+  <p align="left">
+    <!-- Stats -->
+    <img alt="github stats" height="175px" src="https://github-readme-stats.vercel.app/api?username=unSerori&show_icons=true&theme=tokyonight" />
+    <!-- Most used lang -->
+    <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
+  </p>
+
+  <!-- trophy -->
+  ![trophies](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
+
+  <!-- caterpillar -->  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake.svg" />
+  </picture>
+
+<!-- description -->
+## Description
+
+サーバーサイドに興味  
+よろしくおねがいします
 
 <!-- skill from https://github.com/tandpfun/skill-icons -->
 ## Favorite tools, lang and MySkills
@@ -43,18 +62,9 @@
   <img alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
 </picture>
 
-<!-- description -->
-サーバーサイドに興味  
-よろしくおねがいします
-
-<!-- trophy -->
-![trophies](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
-
-<!-- caterpillar -->  
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake.svg" />
-</picture>
-
 <!-- pin -->
+
+<!-- links -->
+## Links
+
+<!-- portfolio, qiita, twitter -->
