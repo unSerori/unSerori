@@ -26,10 +26,12 @@ jobs:
         with: # アクションにパラメータを渡す
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            ./img/github-contribution-grid-snake.svg
-            ./img/github-contribution-grid-snake-dark.svg?palette=github-dark
+            ./img/github-snake.svg
+            ./img/github-snake-dark.svg?palette=github-dark
+            ./img/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
       # push
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with: # アクションにパラメータを渡す
           target_branch: caterpillar
