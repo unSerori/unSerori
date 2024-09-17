@@ -24,7 +24,8 @@
   </a>
 </p>
 
-<!-- Hi -->
+<!-- Hi thx! https://github.com/SNQ-2001/SVG-Animation -->
+<img alt="Hello unSerori! animation" src="./img/hi.svg" width="98.2%" height="100%">
 
 <!-- 図 -->
 ## Chart of Activities
