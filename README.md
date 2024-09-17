@@ -1,28 +1,30 @@
+# Hi MyProfile 👋
 
 <!-- view -->
 <p align="left">
   <!-- github profile view -->
   <a href="https://github.com/unSerori">
-    <img height="20" src="https://komarev.com/ghpvc/?username=unSerori" />
+    <img alt="github profile view" height="20" src="https://komarev.com/ghpvc/?username=unSerori" />
   </a>
   <!-- github followers -->
   <a href="https://github.com/unSerori?tab=followers">
-    <img height="20" src="https://img.shields.io/github/followers/unSerori?label=follow&logo=github&style=flat" />
+    <img alt="github followers" height="20" src="https://img.shields.io/github/followers/unSerori?label=follow&logo=github&style=flat" />
   </a>
   <!-- qiita post -->
   <a href="http://qiita.com/unSerori">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/unSerori/posts.svg" />
+    <img alt="qiita post" height="20" src="https://qiita-badge.apiapi.app/s/unSerori/posts.svg" />
   </a>
   <!-- qiita contribution -->
   <a href="http://qiita.com/unSerori">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/unSerori/contributions.svg" />
+    <img alt="qiita contribution" height="20" src="https://qiita-badge.apiapi.app/s/unSerori/contributions.svg" />
   </a>
-  <a href="http://x.com/AskaInoue"><img height="20" src="https://img.shields.io/twitter/follow/AskaInoue?style=flat&logo=x" /></a>
+  <!-- twitter profile -->
+  <a href="http://x.com/AskaInoue">
+    <img alt="twitter profile" height="20" src="https://img.shields.io/twitter/follow/AskaInoue?style=flat&logo=x" />
   </a>
 </p>
 
 <!-- Hi -->
-# Hi MyProfile 👋
 
 <!-- stats & lang -->
 <p align="left">
@@ -32,7 +34,14 @@
   <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
 </p>
 
-<!-- skill -->
+<!-- skill from https://github.com/tandpfun/skill-icons -->
+## Favorite tools, lang and MySkills
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+  <img alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+</picture>
 
 <!-- description -->
 サーバーサイドに興味  
