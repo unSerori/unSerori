@@ -47,7 +47,7 @@
   <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
   <img alt="github-snake" src="github-snake.svg" />
 </picture> -->
-![](https://raw.githubusercontent.com/unSerori/unSerori/feature/imomushi/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/github-contribution-grid-snake.svg)
 
 
 <!-- pin -->
