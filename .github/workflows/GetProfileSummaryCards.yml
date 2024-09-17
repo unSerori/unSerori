@@ -4,7 +4,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule: # 毎日4時に更新
-    - cron: "0 4 * * *"
+    - cron: "* */24 * * *"
   workflow_dispatch:
 
 jobs:
