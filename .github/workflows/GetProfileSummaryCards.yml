@@ -22,6 +22,8 @@ jobs:
     steps:
       # リポジトリのコードをActionsの実行環境にコピー
       - uses: actions/checkout@v4
+        with:
+          ref: main
       # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -29,7 +31,7 @@ jobs:
         with: # アクションにパラメータを渡す
           USERNAME: ${{ github.repository_owner }}
           # BRANCH_NAME is optional, default to main, branch name to push cards
-          BRANCH_NAME: "summary_cards"
+          # BRANCH_NAME: "summary_cards"
           # UTC_OFFSET is optional, default to zero
           UTC_OFFSET: 9
           # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
