@@ -38,6 +38,8 @@
     <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
   </p>
 
+  <!-- TODO: github-profile-summary-cards -->
+
   <!-- trophy -->
   ![trophies](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
 
@@ -65,7 +67,7 @@
 
 <!-- pin -->
 
-<!-- links [portfolio, qiita, twitter] -->
+<!-- TODO: links [portfolio, qiita, twitter] -->
 ## Links
 
 連絡はTwitterDMまたは
