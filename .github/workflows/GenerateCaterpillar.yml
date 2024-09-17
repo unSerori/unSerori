@@ -10,7 +10,8 @@ on:
   workflow_dispatch:
   # プッシュするたびに実行
   push:
-    branches: [ "feature/imomushi" ]
+    branches:
+      - main
 
 jobs:
   generate:
