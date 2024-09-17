@@ -17,12 +17,12 @@ jobs:
     permissions:
       contents: write # 書き込み権限
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
 
     steps: # 処理内容
       # 芋虫を生成
       - name: generate snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with: # アクションにパラメータを渡す
           github_user_name: ${{ github.repository_owner }}
           outputs: |
