@@ -41,8 +41,7 @@
 <!-- trophy -->
 ![trophies](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
 
-<!-- caterpillar -->
-officia  
+<!-- caterpillar -->  
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake.svg" />
