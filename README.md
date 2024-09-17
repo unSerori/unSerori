@@ -64,7 +64,8 @@
 
 <!-- pin -->
 
-<!-- links -->
+<!-- links [portfolio, qiita, twitter] -->
 ## Links
 
-<!-- portfolio, qiita, twitter -->
+連絡はTwitterDMまたは
+Mail:[askaino28@gmail.com]
