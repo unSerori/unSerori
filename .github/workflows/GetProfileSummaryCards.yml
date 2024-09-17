@@ -5,7 +5,12 @@ name: GitHub-Profile-Summary-Cards
 on:
   schedule: # 毎日4時に更新
     - cron: "* */24 * * *"
+  # 任意のタイミングで実行可能
   workflow_dispatch:
+  # プッシュするたびに実行
+  push:
+    branches:
+      - feature/github-profile-summary-cards_workflows
 
 jobs:
   build:
