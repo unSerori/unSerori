@@ -7,10 +7,10 @@ on:
     - cron: "0 4 * * *"
   # 任意のタイミングで実行可能
   workflow_dispatch:
-  # プッシュするたびに実行
-  push:
-    branches:
-      - feature/github-profile-summary-cards_workflows
+  # # プッシュするたびに実行 # このときはBRANCH_NAMEではなく内部の
+  # push:
+  #   branches:
+  #     - feature/github-profile-summary-cards_workflows
 
 jobs:
   build:
@@ -22,8 +22,6 @@ jobs:
     steps:
       # リポジトリのコードをActionsの実行環境にコピー
       - uses: actions/checkout@v4
-        with:
-          ref: feature/github-profile-summary-cards_workflows # main
       # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -36,11 +34,3 @@ jobs:
           UTC_OFFSET: 9
           # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
           AUTO_PUSH: false
-      # push
-      - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with: # アクションにパラメータを渡す
-          target_branch: summary_cards
-          build_dir: .
-        env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
