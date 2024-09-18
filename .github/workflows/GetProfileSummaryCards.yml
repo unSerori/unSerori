@@ -1,36 +1,70 @@
-# トークンを使って毎日4時にプロフサマリーデータを取得する
+# # トークンを使って毎日4時にプロフサマリーデータを取得する
+
+# name: GitHub-Profile-Summary-Cards
+
+# on:
+#   schedule: # 毎日4時に更新
+#     - cron: "0 4 * * *"
+#   # 任意のタイミングで実行可能
+#   workflow_dispatch:
+#   # プッシュするたびに実行 # このときはBRANCH_NAMEではなく内部の
+#   push:
+#     branches:
+#       - feature/github-profile-summary-cards_workflows
+
+# jobs:
+#   build:
+#     name: generate-github-profile-summary-cards
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+
+#     steps:
+#       # リポジトリのコードをActionsの実行環境にコピー
+#       - uses: actions/checkout@v4
+#       # 取得処理
+#       - uses: vn7n24fzkq/github-profile-summary-cards@release
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+#         with: # アクションにパラメータを渡す
+#           USERNAME: ${{ github.repository_owner }}
+#           # BRANCH_NAME is optional, default to main, branch name to push cards
+#           BRANCH_NAME: "summary_cards"
+#           # UTC_OFFSET is optional, default to zero
+#           UTC_OFFSET: 9
+#           # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
+#           AUTO_PUSH: false
 
 name: GitHub-Profile-Summary-Cards
 
 on:
-  schedule: # 毎日4時に更新
-    - cron: "0 4 * * *"
-  # 任意のタイミングで実行可能
+  schedule: # execute every 24 hours
+    - cron: "* */24 * * *"
   workflow_dispatch:
-  # プッシュするたびに実行 # このときはBRANCH_NAMEではなく内部の
+  # プッシュするたびに実行
   push:
     branches:
-      - feature/github-profile-summary-cards_workflows
+      - main
 
 jobs:
   build:
-    name: generate-github-profile-summary-cards
     runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
     permissions:
       contents: write
 
     steps:
-      # リポジトリのコードをActionsの実行環境にコピー
       - uses: actions/checkout@v4
-      # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
+        env: # default use ${{ secrets.SUMMARY_GITHUB_TOKEN }}, you should replace with your personal access token
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
-        with: # アクションにパラメータを渡す
+        with:
           USERNAME: ${{ github.repository_owner }}
           # BRANCH_NAME is optional, default to main, branch name to push cards
-          BRANCH_NAME: "summary_cards"
+          BRANCH_NAME: "main"
           # UTC_OFFSET is optional, default to zero
-          UTC_OFFSET: 9
+          UTC_OFFSET: 8
+          # EXCLUDE is an optional comma seperated list of languages to exclude, defaults to ""
+          EXCLUDE: ""
           # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
-          AUTO_PUSH: false
+          AUTO_PUSH: true
