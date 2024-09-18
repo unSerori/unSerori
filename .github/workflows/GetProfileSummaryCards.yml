@@ -44,7 +44,7 @@ on:
   # プッシュするたびに実行
   push:
     branches:
-      - main
+      - feature/github-profile-summary-cards_workflows
 
 jobs:
   build:
