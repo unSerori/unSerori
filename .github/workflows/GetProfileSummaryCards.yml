@@ -7,10 +7,10 @@ on:
     - cron: "0 4 * * *"
   # 任意のタイミングで実行可能
   workflow_dispatch:
-  # # プッシュするたびに実行 # このときはBRANCH_NAMEではなく内部の
-  # push:
-  #   branches:
-  #     - feature/github-profile-summary-cards_workflows
+  # プッシュするたびに実行 # このときはBRANCH_NAMEではなく内部の
+  push:
+    branches:
+      - feature/github-profile-summary-cards_workflows
 
 jobs:
   build:
