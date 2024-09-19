@@ -9,12 +9,6 @@ on:
   # 任意のタイミングで実行可能
   workflow_dispatch:
 
-  # test
-  # プッシュするたびに実行
-  push:
-    branches:
-      - feature/github-profile-summary-cards_workflows
-
 jobs:
   generate:
     permissions:
