@@ -39,7 +39,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule: # execute every 24 hours
-    - cron: "27 16 * * *"
+    - cron: "55 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -63,4 +63,4 @@ jobs:
           # EXCLUDE is an optional comma seperated list of languages to exclude, defaults to ""
           EXCLUDE: ""
           # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
-          AUTO_PUSH: false
+          AUTO_PUSH: true
