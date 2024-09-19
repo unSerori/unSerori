@@ -35,5 +35,3 @@ jobs:
           build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.CATERPILLAR }}
-      
-          

@@ -99,7 +99,7 @@
 
 <!-- pin -->
 
-<!-- TODO: links [portfolio, qiita, twitter] <随時追加更新予定> -->
+<!-- links [portfolio, qiita, twitter] <随時追加更新予定> -->
 ## Links
 
 <p align="left">
