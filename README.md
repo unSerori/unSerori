@@ -38,8 +38,39 @@
     <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
   </p>
 
-  <!-- TODO: github-profile-summary-cards -->  
-
+  <!-- TODO: github-profile-summary-cards -->
+  <p style="margin: 0; padding: 0;">
+    <picture >
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=unSerori&theme=tokyonight" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=unSerori&theme=github" />
+    <img alt="github-profile-summary-cards Profile details card" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=unSerori&theme=tokyonight" />
+  </picture>
+  </p>
+  <p align="left" style="margin: 0; padding: 0;">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=unSerori&theme=tokyonight" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=unSerori&theme=github" />
+      <img alt="github-profile-summary-cards GitHub stats card" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=unSerori&theme=tokyonight" />
+    </picture>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=unSerori&theme=tokyonight&utcOffset=9" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=unSerori&theme=github&utcOffset=9" />
+      <img alt="github-profile-summary-cards Productive time card" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=unSerori&theme=tokyonight&utcOffset=9" />
+    </picture>
+  </p>
+  <p align="left">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=unSerori&theme=tokyonight" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=unSerori&theme=github" />
+      <img alt="github-profile-summary-cards Top languages used in repository card" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=unSerori&theme=tokyonight" />
+    </picture>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=unSerori&theme=tokyonight" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=unSerori&theme=ithub" />
+      <img alt="github-profile-summary-cards Top languages in commits card" src="hhttps://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=unSerori&theme=tokyonight" />
+    </picture>
+  </p>
+  
   <!-- trophy -->
   ![trophies](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
 
