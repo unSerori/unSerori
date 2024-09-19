@@ -4,15 +4,9 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    - cron: "0 19 * * *" # 毎日04時に更新 "0 19 * * *"
+    - cron: "56 13 * * *" # 毎日04時に更新 "0 19 * * *"
   # 任意のタイミングで実行可能
   workflow_dispatch:
-
-  # test
-  # プッシュするたびに実行
-  push:
-    branches:
-      - feature/github-profile-summary-cards_workflows
 
 jobs:
   build:
@@ -25,7 +19,7 @@ jobs:
       # リポジトリのコードをActionsの実行環境にコピー
       - uses: actions/checkout@v4
         with:
-          ref: 'output_summary_cards'
+          ref: 'output_summary_cards' # vn7n24fzkq/github-profile-summary-cards@release.with.BRANCH_NAMEでの指定がうまくいかなかったためこちらを利用
       # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
