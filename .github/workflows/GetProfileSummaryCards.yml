@@ -3,8 +3,13 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
+<<<<<<< HEAD
   schedule: # 毎日4時に更新 "0 19 * * *"
     - cron: "30 8 * * *"
+=======
+  schedule: # 毎日4時に更新
+    - cron: "45 7 * * *"
+>>>>>>> e692b4a3d8bea6369b6ea1f8d29133e2cab6bc62
   # 任意のタイミングで実行可能
   workflow_dispatch:
   # # プッシュするたびに実行
@@ -39,4 +44,3 @@ jobs:
           UTC_OFFSET: 9
           # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
           AUTO_PUSH: true
-
