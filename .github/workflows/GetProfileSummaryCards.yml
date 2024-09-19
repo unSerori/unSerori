@@ -4,7 +4,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    - cron: "45 12 * * *" # 毎日04時に更新 "0 19 * * *"
+    - cron: "0 19 * * *" # 毎日04時に更新 "0 19 * * *"
   # 任意のタイミングで実行可能
   workflow_dispatch:
 
@@ -31,7 +31,7 @@ jobs:
         with: # アクションにパラメータを渡す
           USERNAME: ${{ github.repository_owner }}
           # # BRANCH_NAME is optional, default to main, branch name to push cards
-          BRANCH_NAME: "output_summary_cards"
+          # BRANCH_NAME: "output_summary_cards"
           # UTC_OFFSET is optional, default to zero
           UTC_OFFSET: 9
           # # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
