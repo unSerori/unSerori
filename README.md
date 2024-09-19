@@ -1,6 +1,6 @@
 # Hi MyProfile 👋
 
-<!-- view -->
+<!-- view <随時追加更新予定> -->
 <p align="left">
   <!-- github profile view -->
   <a href="https://github.com/unSerori">
@@ -81,25 +81,39 @@
     <img alt="github-snake" src="https://raw.githubusercontent.com/unSerori/unSerori/caterpillar/img/github-snake.svg" />
   </picture>
 
-<!-- description -->
+<!-- description <随時追加更新予定> -->
 ## Description
 
 サーバーサイドに興味  
 よろしくおねがいします
 
-<!-- skill from https://github.com/tandpfun/skill-icons -->
+<!-- skill from https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px <随時追加更新予定> -->
+<!-- BUG:  -->
 ## Favorite tools, lang and MySkills
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
   <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-  <img alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+  <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
 </picture>
 
 <!-- pin -->
 
-<!-- TODO: links [portfolio, qiita, twitter] -->
+<!-- TODO: links [portfolio, qiita, twitter] <随時追加更新予定> -->
 ## Links
 
-連絡はTwitterDMまたは
-Mail:[askaino28@gmail.com]
+<p align="left">
+  <!-- portfolio -->
+  <!-- <a href="https://my.portfolio.top/"><img alt="portfolio" width="30px" src="https://icon.top" /></a> -->
+  <!-- qiita -->
+  <a href="https://qiita.com/unSerori"><img alt="qiita" width="30px" src="./img/icon/qiita.png" /></a>
+  <!-- twitter -->
+  <a href="https://x.com/AskaInoue">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./img/icon/x-white.png" />
+        <source media="(prefers-color-scheme: light)" srcset="./img/icon/x-black.png" />
+        <img alt="twitter" width="28px" src="./img/icon/x-black.png" />
+    </picture>
+  </a>
+
+連絡はTwitterDMまたはMail:[askaino28@gmail.com]まで
