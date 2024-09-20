@@ -21,6 +21,10 @@ jobs:
         with:
           ref: 'output_summary_cards' # vn7n24fzkq/github-profile-summary-cards@release.with.BRANCH_NAMEでの指定がうまくいかなかったためこちらを利用
       # TODO: mainから最新を受け取る
+      - name: Update from main branch
+        run: |
+          git fetch origin main
+          git merge origin/main
       # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
