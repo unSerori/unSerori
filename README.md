@@ -133,7 +133,7 @@ cg
 /cg
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=dark&perline=9" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=dark&perline=9#gh-dark-mode-only" />
   <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only" />
   <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only" />
 </picture>
