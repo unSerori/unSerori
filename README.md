@@ -144,19 +144,19 @@ sort
 
 Specifying Icons
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite)](https://skillicons.dev)
 
 /Specifying Icons
 
 Themed Icons
 
-[![My Skills](https://skillicons.dev/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=light)](https://skillicons.dev)
 
 /Themed Icons
 
 Icons Per Line
 
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&perline=3)](https://skillicons.dev)
 
 /Icons Per Line
 
@@ -164,7 +164,7 @@ Centering Icons
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img src="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
   </a>
 </p>
 
@@ -174,7 +174,7 @@ Centering Icons ALT
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img alt="alt" src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+    <img alt="alt" src="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
   </a>
 </p>
 
