@@ -87,131 +87,25 @@
 サーバーサイドに興味  
 よろしくおねがいします
 
-<!-- skill from https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px <随時追加更新予定> -->
+<!-- skill from https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px -> https://github.com/LelouchFR/skill-icons icon size: 47.85^2, gap: 8.225px <随時追加更新予定> -->
 ## Favorite tools, lang, stack and MySkills
 <!-- BUG: picture&source&imgタグではアイコンたちが最初の一個しかうまく表示されなかった -->
+![Icons for favorite tools, lang, stack and mySkills](https://go-skill-icons.vercel.app/api/icons?perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite)
 
-pic  
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-  <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-</picture>
-
-/pic
-
-pic#  
+<!-- tandpfun/skill-iconsでpicture&source&imgタグを利用してテーマによる場合分けをしようとしたら一つ目のアイコンしか表示されず、GitHubのURIフラグメントを利用しても両方表示されてしまった -->
+<!-- LelouchFR/skill-iconsを利用しても同じ問題(そもそもgithub側の問題かも)はあったがテーマを指定しなくても自動で切り替えてくれたので採用 -->
+pic
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only" />
-  <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,go" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,go" />
+  <img width= alt="Icons for favorite tools, lang, stack and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,go" />
 </picture>
 
-/pic  
+URI
 
-img  
-
-<img alt="a" src="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only" />
-<img alt="a" src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only" />
-
-/img  
-
-md  
-
-![Icons for favorite tools, lang, stack and mySkills - dark](https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only)
-![Icons for favorite tools, lang, stack and mySkills - light ](https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only)
-
-/md  
-
-cg
-<!-- Markdown記法でのダークモード・ライトモード対応 -->
-![Icons for favorite tools, lang, stack and mySkills - dark](https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only)
-![Icons for favorite tools, lang, stack and mySkills - light ](https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only)
-
-/cg
-
-sort
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=dark&perline=9#gh-dark-mode-only" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only" />
-  <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only" />
-</picture>
-
-/sort
-
-Specifying Icons
-
-[![My Skills](https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite)](https://skillicons.dev)
-
-/Specifying Icons
-
-Themed Icons
-
-[![My Skills](https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=light)](https://skillicons.dev)
-
-/Themed Icons
-
-Icons Per Line
-
-[![My Skills](https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&perline=3)](https://skillicons.dev)
-
-/Icons Per Line
-
-Centering Icons
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-  </a>
-</p>
-
-/Centering Icons
-
-Centering Icons ALT
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img alt="alt" src="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-  </a>
-</p>
-
-/Centering Icons ALT
-
-Themed Icons
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,sqlite&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=light" />
-  <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only" />
-</picture>
-
-/Themed Icons
-
-go-skills pic
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://go-skill-icons.vercel.app/api/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-  <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
-</picture>
-
-/go-skills pic
-
-go-skills md
-
-[![My Skills](https://go-skill-icons.vercel.app/api/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only)](https://skillicons.dev)
-[![My Skills](https://go-skill-icons.vercel.app/api/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only)](https://skillicons.dev)
-
-/go-skills md
-
-go-skills
-
-![go-skills](https://go-skill-icons.vercel.app/api/icons?perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite)
-
-/go-skills
+![Icons for favorite tools, lang, stack and mySkills - dark](https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,go#gh-dark-mode-only)
+![Icons for favorite tools, lang, stack and mySkills - light ](https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,go#gh-light-mode-only)
 
 <!-- pin -->
 
