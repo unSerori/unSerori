@@ -183,7 +183,7 @@ Centering Icons ALT
 Themed Icons
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,sqlite&theme=dark" />
   <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite&theme=light" />
   <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only" />
 </picture>
