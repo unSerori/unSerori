@@ -125,6 +125,13 @@ md
 
 /md  
 
+cg
+<!-- Markdown記法でのダークモード・ライトモード対応 -->
+![Icons for favorite tools, lang, stack and mySkills - dark](https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only)
+![Icons for favorite tools, lang, stack and mySkills - light ](https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only)
+
+/cg
+
 <!-- pin -->
 
 <!-- links [portfolio, qiita, twitter] <随時追加更新予定> -->
