@@ -4,7 +4,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    - cron: "10 15 * * *" # 毎日04時に更新 "0 19 * * *"
+    - cron: "0 19 * * *" # 毎日04時に更新 "0 19 * * *"
   # 任意のタイミングで実行可能
   workflow_dispatch:
 
@@ -20,11 +20,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: 'output_summary_cards' # vn7n24fzkq/github-profile-summary-cards@release.with.BRANCH_NAMEでの指定がうまくいかなかったためこちらを利用
-      # TODO: mainから最新を受け取る
+      # mainから最新を受け取る
       - name: Update from main branch
         run: |
-          git fetch origin feature/github-profile-summary-cards_workflows
-          git reset --hard origin/feature/github-profile-summary-cards_workflows
+          git fetch origin main
+          git reset --hard origin/main
           git push origin output_summary_cards --force
       # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
