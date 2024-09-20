@@ -5,7 +5,7 @@ name: generate caterpillar animation
 on:
   # 実行スケジュール
   schedule:
-    - cron: "0 19 * * *" # 毎日04時に更新 "0 19 * * *"
+    - cron: "5 13 * * *" # 毎日04時に更新 "0 19 * * *"
   # 任意のタイミングで実行可能
   workflow_dispatch:
 
