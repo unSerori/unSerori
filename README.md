@@ -190,6 +190,29 @@ Themed Icons
 
 /Themed Icons
 
+go-skills pic
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://go-skill-icons.vercel.app/api/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+  <img width= alt="Icons for favorite tools, lang and mySkills." src="https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite" />
+</picture>
+
+/go-skills pic
+
+go-skills md
+
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?theme=dark&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-dark-mode-only)](https://skillicons.dev)
+[![My Skills](https://go-skill-icons.vercel.app/api/icons?theme=light&perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite#gh-light-mode-only)](https://skillicons.dev)
+
+/go-skills md
+
+go-skills
+
+![go-skills](https://go-skill-icons.vercel.app/api/icons?perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite)
+
+/go-skills
+
 <!-- pin -->
 
 <!-- links [portfolio, qiita, twitter] <随時追加更新予定> -->
