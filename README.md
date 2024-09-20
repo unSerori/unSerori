@@ -90,7 +90,27 @@
 <!-- skill from https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px -> https://github.com/LelouchFR/skill-icons icon size: 47.85^2, gap: 8.225px <随時追加更新予定> -->
 ## Favorite tools, lang, stack and MySkills
 
-![Icons for favorite tools, lang, stack and mySkills](https://go-skill-icons.vercel.app/api/icons?perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite)
+### Tool
+
+<!-- proxmox,sqlite,vite,nextjs,typescript,react,nodejs -->
+
+![Icons for tools](https://go-skill-icons.vercel.app/api/icons?perline=9&i=vscode,docker,bash,git,github,githubactions,markdown,linux,debian)
+
+### Frontend
+
+![Icons for frontend](https://go-skill-icons.vercel.app/api/icons?perline=9&i=java,androidstudio,css,dart,flutter,html,css,js)
+
+### Backend
+
+![Icons for backend](https://go-skill-icons.vercel.app/api/icons?perline=9&i=api,golang,nginx,python,flask,php,laravel)
+
+### Database
+
+![Icons for database](https://go-skill-icons.vercel.app/api/icons?perline=9&i=mysql)
+
+### Another
+
+![Icons for another stack](https://go-skill-icons.vercel.app/api/icons?perline=9&i=cpp,cs)
 
 <!-- tandpfun/skill-iconsでpicture&source&imgタグを利用してテーマによる場合分けをしようとしたら一つ目のアイコンしか表示されず、GitHubのURIフラグメントを利用しても両方表示されてしまった -->
 <!-- LelouchFR/skill-iconsを利用しても同じ問題(そもそもgithub側の問題かも)はあったがテーマを指定しなくても自動で切り替えてくれたので採用 -->
