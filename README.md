@@ -89,12 +89,12 @@
 
 <!-- skill from https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px -> https://github.com/LelouchFR/skill-icons icon size: 47.85^2, gap: 8.225px <随時追加更新予定> -->
 ## Favorite tools, lang, stack and MySkills
-<!-- BUG: picture&source&imgタグではアイコンたちが最初の一個しかうまく表示されなかった -->
+
 ![Icons for favorite tools, lang, stack and mySkills](https://go-skill-icons.vercel.app/api/icons?perline=9&i=androidstudio,bash,cpp,cs,css,dart,docker,flutter,git,golang,html,java,js,laravel,mysql,nginx,php,python,sqlite)
 
 <!-- tandpfun/skill-iconsでpicture&source&imgタグを利用してテーマによる場合分けをしようとしたら一つ目のアイコンしか表示されず、GitHubのURIフラグメントを利用しても両方表示されてしまった -->
 <!-- LelouchFR/skill-iconsを利用しても同じ問題(そもそもgithub側の問題かも)はあったがテーマを指定しなくても自動で切り替えてくれたので採用 -->
-pic
+<!-- pic
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,go" />
@@ -105,7 +105,7 @@ pic
 URI
 
 ![Icons for favorite tools, lang, stack and mySkills - dark](https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,go#gh-dark-mode-only)
-![Icons for favorite tools, lang, stack and mySkills - light ](https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,go#gh-light-mode-only)
+![Icons for favorite tools, lang, stack and mySkills - light ](https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,go#gh-light-mode-only) -->
 
 <!-- pin -->
 
