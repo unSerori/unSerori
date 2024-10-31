@@ -3,7 +3,7 @@
 		<div xmlns="http://www.w3.org/1999/xhtml">
             <div class="container">
                 <!-- 表示内容 -->
-                <h1>Hello, unSerori!</h1>
+                <h1>Hello, welcome to unSerori's world!</h1>
             </div>
 			<style>
                 @-webkit-keyframes typing { 
@@ -24,7 +24,7 @@
                     border-right: .2em solid white;
                     width: 16.5em; 
                     <!-- カーソル停止位置: 文字列+0.2分 -->
-                    width: 16.2ch;
+                    width: 35.2ch;
                     margin: 0.05em 1.15em;
                     padding-top: 4px;
                     white-space: nowrap;
