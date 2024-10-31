@@ -1,4 +1,5 @@
-<svg class="unSerori" fill="none" viewBox="0 0 675 75" width="675" height="75" xmlns="http://www.w3.org/2000/svg" style="border-radius: 5px;">
+<!-- viewBox, width, heightで大きさを指定する -->
+<svg class="unSerori" fill="none" viewBox="0 0 1200 75" width="1200" height="75" xmlns="http://www.w3.org/2000/svg" style="border-radius: 5px;">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
             <div class="container">
