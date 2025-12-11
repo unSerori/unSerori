@@ -27,18 +27,20 @@
 <!-- Hi thx! https://github.com/SNQ-2001/SVG-Animation -->
 <img alt="Hello unSerori! animation" src="./img/hi.svg" width="98.2%" height="100%">
 
+<!--  -->
+
 <!-- 図 -->
 ## Chart of Activities
 
-  <!-- stats & lang -->
+  <!--stats & lang: https://github.com/anuraghazra/github-readme-stats -->
   <p align="left">
     <!-- Stats -->
-    <img alt="github stats" height="175px" src="https://github-readme-stats.vercel.app/api?username=unSerori&show_icons=true&theme=tokyonight" />
+    <img alt="github stats" height="175px" src="https://github-readme-stats-unseori.vercel.app/api?username=unSerori&show_icons=true&theme=tokyonight" />
     <!-- Most used lang -->
-    <img alt="Top Langs" height="175px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
+    <img alt="Top Langs" height="175px" src="https://github-readme-stats-unseori.vercel.app/api/top-langs/?username=unSerori&layout=compact&theme=tokyonight" />
   </p>
 
-  <!-- github-profile-summary-cards -->
+  <!-- summary cards: https://github.com/vn7n24fzkq/github-profile-summary-cards -->
   <p style="margin: 0; padding: 0;">
     <picture >
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unSerori/unSerori/output_summary_cards/profile-summary-card-output/tokyonight/0-profile-details.svg" />
@@ -70,9 +72,11 @@
       <img alt="github-profile-summary-cards Top languages in commits card" src="https://raw.githubusercontent.com/unSerori/unSerori/output_summary_cards/profile-summary-card-output/github/2-most-commit-language.svg" />
     </picture>
   </p>
-  
-  <!-- trophy -->
-  ![trophies](https://github-profile-trophy.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
+
+  <!-- trophy: https://github.com/ryo-ma/github-profile-trophy -->
+  ![trophies](https://github-profile-trophy-unserori.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
+
+<!--  -->
 
   <!-- caterpillar -->  
   <picture>
