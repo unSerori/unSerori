@@ -34,4 +34,4 @@ jobs:
           target_branch: caterpillar
           build_dir: .
         env:
-          GITHUB_TOKEN: ${{ secrets.CATERPILLAR }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
