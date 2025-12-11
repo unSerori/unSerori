@@ -92,30 +92,46 @@
 
 よろしくおねがいします。
 
-<!-- skill from https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px -> https://github.com/LelouchFR/skill-icons icon size: 47.85^2, gap: 8.225px <随時追加更新予定> -->
+<!-- skills  https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px -> https://github.com/LelouchFR/skill-icons icon size: 47.85^2, gap: 8.225px -->
 ## Favorite tools, lang, stack and MySkills
 
 ### Tool
 
-<!-- proxmox,sqlite,vite,nextjs,typescript,react,nodejs -->
+<!-- vite,nextjs,typescript,react,nodejs -->
 
-![Icons for tools](https://go-skill-icons.vercel.app/api/icons?perline=9&i=vscode,docker,bash,git,github,githubactions,markdown,linux,debian)
-
-### Frontend
-
-![Icons for frontend](https://go-skill-icons.vercel.app/api/icons?perline=9&i=java,androidstudio,css,dart,flutter,html,css,js)
+![Icons for tools](https://go-skill-icons.vercel.app/api/icons?perline=9&i=vscode,docker,git,github,markdown)
 
 ### Backend
 
-![Icons for backend](https://go-skill-icons.vercel.app/api/icons?perline=9&i=api,golang,nginx,python,flask,php,laravel)
+![Icons for backend](https://go-skill-icons.vercel.app/api/icons?perline=9&i=api,golang,gin,python,flask,kotlin,ktor,php,laravel,ts,sqlite)
+
+### Frontend
+
+![Icons for frontend](https://go-skill-icons.vercel.app/api/icons?perline=9&i=html,js,ts)
+
+### Mobile
+
+![Icons for mobile](https://go-skill-icons.vercel.app/api/icons?perline=9&i=androidstudio,dart,flutter)
+
+## CLI
+
+![Icons for cli](https://go-skill-icons.vercel.app/api/icons?perline=9&i=python,go,bash)
+
+## Server
+
+![Icons for server](https://go-skill-icons.vercel.app/api/icons?perline=9&i=proxmox,bash,linux,debian,nginx)
 
 ### Database
 
-![Icons for database](https://go-skill-icons.vercel.app/api/icons?perline=9&i=mysql)
+![Icons for database](https://go-skill-icons.vercel.app/api/icons?perline=9&i=mysql,postgresql)
+
+### CI/CD
+
+![Icons for ci/cd](https://go-skill-icons.vercel.app/api/icons?perline=9&i=githubactions)
 
 ### Another
 
-![Icons for another stack](https://go-skill-icons.vercel.app/api/icons?perline=9&i=cpp,cs)
+![Icons for another stack](https://go-skill-icons.vercel.app/api/icons?perline=9&i=java,cpp,cs,css)
 
 <!-- tandpfun/skill-iconsでpicture&source&imgタグを利用してテーマによる場合分けをしようとしたら一つ目のアイコンしか表示されず、GitHubのURIフラグメントを利用しても両方表示されてしまった -->
 <!-- LelouchFR/skill-iconsを利用しても同じ問題(そもそもgithub側の問題かも)はあったがテーマを指定しなくても自動で切り替えてくれたので採用 -->
@@ -131,8 +147,6 @@ URI
 
 ![Icons for favorite tools, lang, stack and mySkills - dark](https://skillicons.dev/icons?theme=dark&perline=9&i=androidstudio,go#gh-dark-mode-only)
 ![Icons for favorite tools, lang, stack and mySkills - light ](https://skillicons.dev/icons?theme=light&perline=9&i=androidstudio,go#gh-light-mode-only) -->
-
-<!-- pin -->
 
 <!-- links [portfolio, qiita, twitter] <随時追加更新予定> -->
 ## Links
