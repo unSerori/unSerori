@@ -29,7 +29,7 @@ jobs:
       # 取得処理
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARD_TOKEN }}
         with: # アクションにパラメータを渡す
           USERNAME: ${{ github.repository_owner }}
           # # BRANCH_NAME is optional, default to main, branch name to push cards
