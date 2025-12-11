@@ -84,8 +84,13 @@
 <!-- description <随時追加更新予定> -->
 ## Description
 
-サーバーサイドに興味  
-よろしくおねがいします
+サーバーサイドに興味があります。ひと段落したらフロントやモバイルにも手を出したい。
+今はCLIツール書いてる。
+
+ドメイン駆動、Issue駆動がすき。
+最近はテストも楽しい。
+
+よろしくおねがいします。
 
 <!-- skill from https://github.com/tandpfun/skill-icons icon size: 48*48, gap:8.25px -> https://github.com/LelouchFR/skill-icons icon size: 47.85^2, gap: 8.225px <随時追加更新予定> -->
 ## Favorite tools, lang, stack and MySkills
