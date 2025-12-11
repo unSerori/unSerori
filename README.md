@@ -27,8 +27,6 @@
 <!-- Hi thx! https://github.com/SNQ-2001/SVG-Animation -->
 <img alt="Hello unSerori! animation" src="./img/hi.svg" width="98.2%" height="100%">
 
-<!--  -->
-
 <!-- 図 -->
 ## Chart of Activities
 
@@ -75,8 +73,6 @@
 
   <!-- trophy: https://github.com/ryo-ma/github-profile-trophy -->
   ![trophies](https://github-profile-trophy-unserori.vercel.app/?username=unSerori&theme=onedark&column=9&row=1)
-
-<!--  -->
 
   <!-- caterpillar -->  
   <picture>
