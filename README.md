@@ -151,4 +151,4 @@ URI
     </picture>
   </a>
 
-連絡はTwitterDMまたはMail:[askaino28@gmail.com]まで
+連絡はTwitterDMまたはMail:[askaino28@gmail.com]まで。
